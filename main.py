@@ -14,8 +14,8 @@ def main(etherscan_api_key: str, infura_api_key: str) -> None:
     # ----Assinment 2: Extract the sanctioned addresses
 
     extractor = SanctionsExtractor(etherscan_api_key, infura_api_key)
-    extractor.get_sanctioned_addresses_via_rpc()
-    #extractor.get_sanctioned_addresses_via_api() # uncomment this line to use the API instead of RPC
+    extractor.fetch_sanctioned_addresses_via_rpc()
+    #extractor.fetch_sanctioned_addresses_via_api() # uncomment this line to use the API instead of RPC
     extractor.write_sanctioned_addresses_to_csv()
 
 

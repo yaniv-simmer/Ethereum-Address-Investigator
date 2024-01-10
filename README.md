@@ -1,17 +1,19 @@
-# README for Ethereum Address Investigation Project
+# Ethereum Hacker Investigation 
 
 ## Overview
-- **Assignment 1. Hacker Address Investigation.py:** Investigate Ethereum addresses using the Etherscan API.
+- <ins>**Assignment 1.</ins> Hacker Address Investigation.py:**\
+ Investigate Ethereum addresses using the Etherscan API.
 
 
-- **Assignment 2. Sanctioned Addresses Extraction.py:** Extract  Ethereum addresse from a Chainalysis oracle contract usind the **Infura API** and **optionally the Etherscan API**. please note the functions :
+- <ins>**Assignment 2.</ins> Sanctioned Addresses Extraction.py:**\
+ Extract  Ethereum addresse from a Chainalysis oracle contract usind the **Infura API** and **<ins>optionally</ins> the Etherscan API**. please note in the code the functions :
     - fetch_sanctioned_addresses_via_api()
     - fetch_sanctioned_addresses_via_rpc()
 
--built with Python 3.10.11
+<br />-built with Python 3.10.11
 
-## Installation
-Before running the scripts, ensure that [Python 3](https://www.python.org/downloads/) is installed on your machine.\
+## Installation and Usage
+1. Before running the scripts, ensure that [Python 3](https://www.python.org/downloads/) is installed on your machine.\
 install the necessary libraries using pip:
 
 ```bash
@@ -19,16 +21,14 @@ pip install requests web3 argparse
 ```
 
 
-## Usage:
-
-clone the repository with the following command:
+2. clone the repository with the following command:
 
 ```bash
 git clone https://github.com/yaniv-simmer/Ethereum-Address-Investigator.git
 ```
 
 
-To run the script, you need to provide your [Etherscan API](https://docs.etherscan.io/getting-started/viewing-api-usage-statistics) key and [Infura API key](https://docs.infura.io/getting-started).\
+3. To run the script, you need to provide your [Etherscan API](https://docs.etherscan.io/getting-started/viewing-api-usage-statistics) key and [Infura API key](https://docs.infura.io/getting-started).\
 Use the following command:
 
 ```bash

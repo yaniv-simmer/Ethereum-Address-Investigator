@@ -22,7 +22,7 @@ class SanctionsExtractor:
         self.infura_api_key = infura_api_key
         self.sanctioned_addresses = None
 
-    def get_sanctioned_addresses_via_rpc(self) -> None:
+    def fetch_sanctioned_addresses_via_rpc(self) -> None:
         """
         Fetch sanctioned addresses from the contract using RPC calls.
         """
@@ -74,7 +74,7 @@ class SanctionsExtractor:
                 writer.writerow([address])
         
 
-    def get_sanctioned_addresses_via_api(self) -> None:
+    def fetch_sanctioned_addresses_via_api(self) -> None:
         """
         Fetch the sanctioned addresses from the Ethereum contract using the Etherscan API.
         """
