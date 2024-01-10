@@ -1,11 +1,11 @@
 # Ethereum Hacker Investigation 
 
 ## Overview
-- <ins>**Assignment 1.</ins> Hacker Address Investigation.py:**\
+- <ins>**Assignment 1.</ins> `Hacker_Address_Investigation.py`:**\
  Investigate Ethereum addresses using the Etherscan API.
 
 
-- <ins>**Assignment 2.</ins> Sanctioned Addresses Extraction.py:**\
+- <ins>**Assignment 2.</ins> `Sanctioned_Addresses_Extraction.py`:**\
  Extract  Ethereum addresse from a Chainalysis oracle contract usind the **Infura API** and **<ins>optionally</ins> the Etherscan API**. please note in the main.py file the functions :
     - fetch_sanctioned_addresses_via_api()
     - fetch_sanctioned_addresses_via_rpc()
