@@ -6,7 +6,7 @@
 
 
 - <ins>**Assignment 2.</ins> Sanctioned Addresses Extraction.py:**\
- Extract  Ethereum addresse from a Chainalysis oracle contract usind the **Infura API** and **<ins>optionally</ins> the Etherscan API**. please note in the code the functions :
+ Extract  Ethereum addresse from a Chainalysis oracle contract usind the **Infura API** and **<ins>optionally</ins> the Etherscan API**. please note in the main.py file the functions :
     - fetch_sanctioned_addresses_via_api()
     - fetch_sanctioned_addresses_via_rpc()
 
