@@ -44,7 +44,7 @@ class SanctionsExtractor:
         
         # Define event filter for the SanctionedAddressesAdded event        
         event_filter = contract.events.SanctionedAddressesAdded.create_filter(fromBlock='earliest')
-         
+        
         # Get all entries from the event,and process the event data
         events = event_filter.get_all_entries()
         added_sanctioned_addresses = []

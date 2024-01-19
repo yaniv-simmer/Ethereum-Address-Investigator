@@ -13,7 +13,16 @@
 <br />-built with Python 3.10.11
 
 ## Installation and Usage
-1. Before running the scripts, ensure that [Python 3](https://www.python.org/downloads/) is installed on your machine.\
+
+1. clone the repository with the following command:
+
+```bash
+git clone https://github.com/yaniv-simmer/Ethereum-Address-Investigator.git
+cd Ethereum-Address-Investigator
+```
+
+
+2. Before running the scripts, ensure that [Python 3](https://www.python.org/downloads/) is installed on your machine.\
 install the necessary libraries using pip:
 
 ```bash
@@ -21,11 +30,6 @@ pip install requests web3 argparse
 ```
 
 
-2. clone the repository with the following command:
-
-```bash
-git clone https://github.com/yaniv-simmer/Ethereum-Address-Investigator.git
-```
 
 
 3. To run the script, you need to provide your [Etherscan API](https://docs.etherscan.io/getting-started/viewing-api-usage-statistics) key and [Infura API key](https://docs.infura.io/getting-started).\
